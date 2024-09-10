@@ -10,7 +10,7 @@ chmod 777 -R /var/www
 再將/etc/apache2/sites-available權限改成777(原先644)  
 chmod 777 -R /etc/apache2/sites-available  
   
-權限改完後以sudo執行.sh檔案：  
+權限改完後到本機的家目錄進入Linux-Homework以sudo執行.sh檔案：  
 sh 檔名.sh  
   
 最後到/etc/apache2/sites-available下啟用設定檔  
