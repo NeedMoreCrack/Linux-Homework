@@ -18,4 +18,10 @@ cd /etc/apache2/sites-available && sudo a2ensite city.conf && sudo a2ensite blog
 本機的瀏覽器打下面這些網址就會顯示對應的字了：  
 city.linux.test  
 blog.linux.test  
-shopping.linux.test  
+shopping.linux.test 
+
+
+
+--------------------新增V2版本--------------------- 
+
+直接以sudo執行就好
