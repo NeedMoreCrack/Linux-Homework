@@ -1,5 +1,8 @@
 # Linux-Homework
 
+執行.sh檔案的方法：
+sh 檔名.sh
+
 要先將/var/www權限改成777(原先755)
 chmod 777 -R /var/www
 
