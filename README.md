@@ -1,5 +1,8 @@
 # Linux-Homework
 
+抓取檔案的方法 先到你的linux家目錄下然後clone:
+git clone https://github.com/NeedMoreCrack/Linux-Homework.git
+
 執行.sh檔案的方法：
 sh 檔名.sh
 
