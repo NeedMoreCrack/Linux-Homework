@@ -14,7 +14,7 @@ sudo chmod 777 -R /etc/apache2/sites-available
 sh 檔名.sh  
   
 最後到/etc/apache2/sites-available下啟用設定檔  
-cd /etc/apache2/sites-available
+cd /etc/apache2/sites-available  
 sudo a2ensite city.conf && sudo a2ensite blog.conf && sudo a2ensite shopping.conf  
 sudo systemctl reload apache2  
   
