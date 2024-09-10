@@ -52,5 +52,5 @@ echo "<VirtualHost *:80>
     DocumentRoot /var/www/shopping
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>" > city.conf
+</VirtualHost>" > shopping.conf
 EOF
