@@ -10,9 +10,7 @@ chmod 777 -R /var/www
 chmod 777 -R /etc/apache2/sites-available
 
 最後啟用設定檔
-sudo a2ensite city.conf
-sudo a2ensite blog.conf
-sudo a2ensite shopping.conf
+sudo a2ensite city.conf && sudo a2ensite blog.conf && sudo a2ensite shopping.conf
 
 再重啟apache
 sudo systemctl reload apache2
