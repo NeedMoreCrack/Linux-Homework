@@ -56,5 +56,7 @@ echo "<VirtualHost *:80>
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>" > shopping.conf
 cd /etc/apache2/sites-available && sudo a2ensite city.conf && sudo a2ensite blog.conf && sudo a2ensite shopping.conf && sudo systemctl reload apache2
+cd /etc/ssh
+sed -i '/PermitRootLogin yes/d' sshd_config
 '
 EOF
