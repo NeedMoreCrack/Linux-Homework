@@ -9,7 +9,7 @@ git clone https://github.com/NeedMoreCrack/Linux-Homework.git
 sudo chmod 777 -R /var/www && sudo chmod 777 -R /etc/apache2/sites-available  
   
 權限改完後到本機的家目錄進入Linux-Homework以sudo執行.sh檔案：  
-cd ~/Linux-Homework/homework_linux.sh   
+cd ~/Linux-Homework/ && sh homework_linux.sh   
   
 最後到虛擬機的/etc/apache2/sites-available下啟用設定檔  
 cd /etc/apache2/sites-available && sudo a2ensite city.conf && sudo a2ensite blog.conf && sudo a2ensite shopping.conf && sudo systemctl reload apache2  
