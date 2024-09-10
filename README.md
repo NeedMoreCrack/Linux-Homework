@@ -15,8 +15,6 @@ sh 檔名.sh
   
 最後到/etc/apache2/sites-available下啟用設定檔  
 sudo a2ensite city.conf && sudo a2ensite blog.conf && sudo a2ensite shopping.conf  
-  
-再重啟apache  
 sudo systemctl reload apache2  
   
 最後再把上面兩個資料夾的權限改回來  
