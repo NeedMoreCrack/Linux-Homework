@@ -13,7 +13,7 @@ chmod 777 -R /var/www
 再將/etc/apache2/sites-available權限改成777(原先644)
 chmod 777 -R /etc/apache2/sites-available
 
-最後啟用設定檔
+最後到/etc/apache2/sites-available下啟用設定檔
 sudo a2ensite city.conf && sudo a2ensite blog.conf && sudo a2ensite shopping.conf
 
 再重啟apache
