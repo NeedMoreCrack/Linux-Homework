@@ -5,10 +5,10 @@ git clone https://github.com/NeedMoreCrack/Linux-Homework.git
   
 先改虛擬機的資料夾權限：  
 要先將/var/www權限改成777(原先755)  
-chmod 777 -R /var/www  
+sudo chmod 777 -R /var/www  
   
 再將/etc/apache2/sites-available權限改成777(原先644)  
-chmod 777 -R /etc/apache2/sites-available  
+sudo chmod 777 -R /etc/apache2/sites-available  
   
 權限改完後到本機的家目錄進入Linux-Homework以sudo執行.sh檔案：  
 sh 檔名.sh  
