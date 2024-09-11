@@ -60,3 +60,4 @@ cd /etc/ssh
 sed -i '/PermitRootLogin yes/d' sshd_config
 '
 EOF
+open -na "Google Chrome" --args "city.linux.test" && open -na "Google Chrome" --args "blog.linux.test" && open -na "Google Chrome" --args "shopping.linux.test"
