@@ -9,7 +9,7 @@ while true; do
         on)
             echo "=============================="
             echo "         You chose on         "
-            echo "     Ping has been denied     "
+            echo "     Ping has been allowed    "
             echo "=============================="
             sudo iptables -D INPUT -p icmp --icmp-type echo-request -j DROP
             sudo iptables-save | sudo tee /etc/iptables/rules.v4
@@ -18,7 +18,7 @@ while true; do
         off)
             echo "=============================="
             echo "         You chose off        "
-            echo "     Ping has been allowed    "
+            echo "     Ping has been denied     "
             echo "=============================="
             sudo iptables -A INPUT -p icmp --icmp-type echo-request -j DROP
             sudo iptables-save | sudo tee /etc/iptables/rules.v4

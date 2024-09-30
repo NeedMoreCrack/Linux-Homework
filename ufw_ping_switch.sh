@@ -8,27 +8,19 @@ while true; do
         on)
             echo "=============================="
             echo "         You chose ON         "
+            echo "     Ping has been allowed    "
             echo "=============================="
             iptables -D INPUT -p icmp --icmp-type echo-request -j DROP 2>/dev/null
             iptables -I INPUT -p icmp --icmp-type echo-request -j ACCEPT
-            if [ $? -eq 0 ]; then
-                echo "Ping has been allowed."
-            else
-                echo "Failed to allow ping. Please check iptables for more details."
-            fi
             break
             ;;
         off)
             echo "=============================="
             echo "         You chose OFF        "
+            echo "     Ping has been denied     "
             echo "=============================="
             iptables -D INPUT -p icmp --icmp-type echo-request -j ACCEPT 2>/dev/null
             iptables -I INPUT -p icmp --icmp-type echo-request -j DROP
-            if [ $? -eq 0 ]; then
-                echo "Ping has been denied."
-            else
-                echo "Failed to deny ping. Please check iptables for more details."
-            fi
             break
             ;;
         *)
