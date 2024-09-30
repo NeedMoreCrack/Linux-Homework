@@ -32,9 +32,9 @@ Linux期末作業版本
 
 將規則恢復成預設  
 default_ping_rule.sh  
- 
-ping開關使用iptables 
+  
+ping開關使用iptables  
 iptables_ping_switch.sh  
-
+  
 ping開關使用ufw  
 ufw_ping_switch.sh   
