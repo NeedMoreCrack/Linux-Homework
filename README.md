@@ -28,8 +28,8 @@ shopping.linux.test
 
 --------------------新增V3版本--------------------- 
 
-Linux期末作業版
-本
+Linux期末作業版本  
+
 將規則恢復成預設  
 default_ping_rule.sh  
  
