@@ -5,9 +5,9 @@ echo "PermitRootLogin yes" >> sshd_config
 hostPath="/etc/hosts"
 echo "Please enter your linux ip:"
 read ip
-echo "$ip photo.linux.test " >> $hostPath
-echo "$ip blog.linux.test " >> $hostPath
-echo "$ip resume.linux.test " >> $hostPath
+echo "$ip photo.ubuntu.test " >> $hostPath
+echo "$ip blog.ubuntu.test " >> $hostPath
+echo "$ip resume.ubuntu.test " >> $hostPath
 echo "Please enter your linux name:"
 read linuxName
 echo "Please enter your linux password:"
