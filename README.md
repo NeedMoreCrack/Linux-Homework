@@ -30,6 +30,6 @@ shopping.linux.test
 
 Linux期末作業版本
 
-default_iptables.sh 將規則恢復成預設
-iptables_ping_switch.sh ping開關使用iptables
-ufw_ping_switch.sh ping開關使用ufw
+default_ping_rule.sh 將規則恢復成預設  
+iptables_ping_switch.sh ping開關使用iptables  
+ufw_ping_switch.sh ping開關使用ufw  
